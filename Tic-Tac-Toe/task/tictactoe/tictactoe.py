@@ -9,7 +9,7 @@ class TicTacToe:
         #  print("X O X \nO X X \nX X O")
         for value in self.input_values:
             counter += 1
-            temp_list += value
+            temp_list.append(value)
             if counter % 3 == 0:
                 print(f"| {temp_list[0]} {temp_list[1]} {temp_list[2]} |")
                 temp_list = []
